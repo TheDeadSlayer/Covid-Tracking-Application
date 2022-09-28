@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="701.0" y="1787.0">sample.Precautions</node>
+    <node x="0.0" y="2042.0">sample.Main</node>
+    <node x="523.0" y="1787.0">sample.FAQ</node>
+    <node x="1151.0" y="1615.0">sample.ClientsInfoDB</node>
+    <node x="905.0" y="1272.0">sample.Quarantined</node>
+    <node x="1274.0" y="0.0">sample.ClientInfoTable</node>
+    <node x="296.0" y="1327.0">sample.Negative</node>
+    <node x="195.0" y="2042.0">sample.Instructions</node>
+    <node x="144.5" y="1615.0">sample.Employee</node>
+    <node x="278.0" y="1875.5">sample.Admin</node>
+    <node x="612.0" y="1615.0">sample.CovidInfo</node>
+    <node x="1394.0" y="1615.0">sample.Controller</node>
+    <node x="454.75" y="0.0">sample.Person</node>
+    <node x="904.0" y="1615.0">sample.CreateAccount</node>
+    <node x="458.0" y="2042.0">sample.LoginPage</node>
+    <node x="0.0" y="1853.0">sample.Doctor</node>
+    <node x="585.0" y="1228.0">sample.Positive</node>
+    <node x="1679.0" y="1615.0">sample.VaccinatedFactory</node>
+    <node x="0.0" y="1316.0">sample.Suspected</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Doctor" target="sample.Employee">
+      <point x="0.0" y="-72.0" />
+      <point x="129.0" y="1828.0" />
+      <point x="199.0" y="1828.0" />
+      <point x="-54.5" y="94.0" />
+    </edge>
+    <edge source="sample.Negative" target="sample.Person">
+      <point x="0.0" y="-72.0" />
+      <point x="430.5" y="1208.0" />
+      <point x="550.75" y="1208.0" />
+      <point x="-32.0" y="589.0" />
+    </edge>
+    <edge source="sample.Precautions" target="sample.CovidInfo">
+      <point x="0.0" y="-50.0" />
+      <point x="780.0" y="1762.0" />
+      <point x="730.5" y="1762.0" />
+      <point x="39.5" y="61.0" />
+    </edge>
+    <edge source="sample.Suspected" target="sample.Person">
+      <point x="0.0" y="-83.0" />
+      <point x="138.0" y="1198.0" />
+      <point x="486.75" y="1198.0" />
+      <point x="-96.0" y="589.0" />
+    </edge>
+    <edge source="sample.Quarantined" target="sample.Person">
+      <point x="0.0" y="-127.0" />
+      <point x="1067.0" y="1198.0" />
+      <point x="678.75" y="1198.0" />
+      <point x="96.0" y="589.0" />
+    </edge>
+    <edge source="sample.Positive" target="sample.Person">
+      <point x="0.0" y="-171.0" />
+      <point x="735.0" y="1208.0" />
+      <point x="614.75" y="1208.0" />
+      <point x="32.0" y="589.0" />
+    </edge>
+    <edge source="sample.Admin" target="sample.Employee">
+      <point x="0.0" y="-49.5" />
+      <point x="378.0" y="1828.0" />
+      <point x="308.0" y="1828.0" />
+      <point x="54.5" y="94.0" />
+    </edge>
+    <edge source="sample.FAQ" target="sample.CovidInfo">
+      <point x="0.0" y="-50.0" />
+      <point x="602.0" y="1762.0" />
+      <point x="651.5" y="1762.0" />
+      <point x="-39.5" y="61.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6" x="1015.8333333333335" y="1730.1666666666667" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
