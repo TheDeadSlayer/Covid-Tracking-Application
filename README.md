@@ -9,3 +9,5 @@ Patients Can:
 - Be informed on the latest regulations 
 
 The android application is connected to SQL database through a PHP connection.
+
+The admin side is a webview of phpmyadminpage containing SQL database hosted locally. 
