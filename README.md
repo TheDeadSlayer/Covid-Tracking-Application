@@ -7,3 +7,5 @@ Patients Can:
 - Locate nearest health center location
 - Call emergency hotlines
 - Be informed on the latest regulations 
+
+The android application is connected to SQL database through a PHP connection.
